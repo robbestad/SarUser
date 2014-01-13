@@ -1,0 +1,39 @@
+{% extends "layout/layout.twig" %}
+
+
+
+
+{% block pagecontent %}
+
+
+    <div class="container-fluid wrapper">
+    <div class="well">
+            <h2 class="title">Din konto</h2>
+    <span class="help-block">Din kontoinformasjon.</span>
+            {% if feedback is defined %}
+                <div class="clearfix"></div>
+                <span class="help-inline">
+                <p class="error">
+                    <span class="help-inline">{{ feedback }}</span>
+                </p>
+               </span>
+            {%  endif  %}
+
+
+            <p><label>Brukernavn</label>
+                {{ session.username }}
+            </p>
+            <p><label>Endre passord</label>
+               <a href="/user/changepassword">Endre passord</a>
+            </p>
+
+
+    </div>
+
+        <div class="pad25 hidden-desktop"></div>
+    </div>
+
+
+
+
+{% endblock %}
