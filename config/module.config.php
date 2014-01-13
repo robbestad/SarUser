@@ -117,17 +117,7 @@ return array(
     ),
 
     'view_manager' => array(
-        'display_not_found_reason'  => false,
-        'display_exceptions'        => false,
-        'doctype'                   => 'HTML5',
-        'not_found_exception'       => 'error',
-        'not_found_template'        => 'error/404',
-        'exception_template'        => 'error/index',
-
         'template_map' => array(
-            'login/index/index'   => __DIR__ . '/../view/sar-user/index/index.twig',
-            'nybruker'   => __DIR__ . '/../view/sar-user/index/nybruker.twig',
-            'status'   => __DIR__ . '/../view/sar-user/index/index.twig',
             'sar-user/index/index'   => __DIR__ . '/../view/sar-user/index/index.twig',
             'sar-user/index/account'   => __DIR__ . '/../view/sar-user/index/account.twig',
             'sar-user/index/login'   => __DIR__ . '/../view/sar-user/index/login.twig',
@@ -135,11 +125,6 @@ return array(
             'sar-user/index/register'   => __DIR__ . '/../view/sar-user/index/nybruker.twig',
             'sar-user/index/changepassword'   => __DIR__ . '/../view/sar-user/index/changepassword.twig',
             'sar-user/index/forgottenpassword'   => __DIR__ . '/../view/sar-user/index/forgottenpassword.twig',
-            'register'   => __DIR__ . '/../view/sar-user/index/nybruker.twig',
-            'error/index'               => __DIR__ . '/../view/sar-user/error/index.twig',
-            'error/404'                 => __DIR__ . '/../view/sar-user/error/index.twig',
-            'layout/layout'                 => __DIR__ . '/../../Application/view/layout/layout.twig',
-
         ),
         'template_path_stack' => array(
             __DIR__ . '/../view',
