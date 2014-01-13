@@ -1,4 +1,10 @@
 <?php
+/**
+ * @author Sven Anders Robbestad @ 2013-2014 (svenanders@robbestad.com)
+ *
+ * @license   Creative Commons (CC BY)
+ */
+
 namespace SarUser\Form;
 
 use Zend\Form\Form;

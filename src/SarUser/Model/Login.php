@@ -1,4 +1,9 @@
 <?php
+/**
+ * @author Sven Anders Robbestad @ 2013-2014 (svenanders@robbestad.com)
+ *
+ * @license   Creative Commons (CC BY)
+ */
 
 namespace SarUser\Model;
 use Zend\InputFilter\Factory as InputFactory;

@@ -1,20 +1,13 @@
 <?php
 /**
- *  SVEN ANDERS ROBBESTAD (C) 2009 <anders@robbestad.com>.
- *  @license   http://creativecommons.org/publicdomain/zero/1.0/legalcode CC0 1.0 Universal
+ * @author Sven Anders Robbestad @ 2013-2014 (svenanders@robbestad.com)
  *
- *  http://www.robbestad.com
+ * @license   Creative Commons (CC BY)
  *
- *  Description:
- *  SecureHash creates a hash based on blowfish.
- *  This combination creates a password hash that is is virtually impossible
- *  to crack without ludicrous amount of funds or hardware.
- *  The password simply cannot be decrypted without knowing the password, salt and hash.
- *
- *  USAGE:
- *  see demo.php
+ *  @description SecureHash creates a hash based on blowfish.
  *
  */
+
 namespace SarUser\Service;
 
 class SecureHash

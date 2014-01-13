@@ -1,8 +1,8 @@
 <?php
 /**
- * Sven Anders Robbestad @ 2013
+ * @author Sven Anders Robbestad @ 2013-2014 (svenanders@robbestad.com)
  *
- * @license   http://creativecommons.org/publicdomain/zero/1.0/legalcode CC0 1.0 Universal
+ * @license   Creative Commons (CC BY)
  */
 
 return array(
